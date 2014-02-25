@@ -15,6 +15,29 @@
 ?>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
+<img src="logo.png">
+
+<nav>
+	<a href="/" class="nav-item">Page 1</a>
+	<a href="/" class="nav-item">Page 2</a>
+	<a href="/" class="nav-item">Page 3</a>
+	<a href="/" class="nav-item">Page 4</a>
+</nav>
+
+<div class="main-img"></div>
+
+<section>
+	<p class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam erat, lacinia nec semper et, condimentum quis ipsum. Morbi lacinia vitae sem ac pretium. In tempor, ligula sit amet volutpat cursus, quam magna rutrum mauris, vitae tristique elit turpis ut felis.
+	</p>
+
+	<p class="col">Integer augue metus, molestie ac varius quis, tincidunt sed neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas aliquam sed massa eu condimentum. Sed aliquet odio quis varius vulputate. 
+	</p>
+
+	<p class="col">Sed rhoncus faucibus felis ac sagittis. Sed semper cursus semper. Nullam vitae mauris eu lacus convallis ultrices. Curabitur lobortis velit a libero suscipit, tincidunt sodales diam auctor. Nam tincidunt turpis ac pellentesque faucibus.
+	</p>
+</section>	
+
+
 <?php if ( have_posts() ): ?>
 <h2>Latest Posts</h2>	
 <ol>
