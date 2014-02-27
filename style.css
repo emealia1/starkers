@@ -32,9 +32,83 @@ footer,
 nav,
 li					{ position:relative; /* For absolutely positioning elements within containers (add more to the list if need be) */ }
 .group:after 		{ display:block; height:0; clear:both; content:"."; visibility:hidden; /* For clearing */ }
-body 				{ background:#fff; /* Don't forget to style your body to avoid user overrides */ }
+body 				{ background:#E8E8E8; /* Don't forget to style your body to avoid user overrides */ }
 ::-moz-selection 	{ background:#ff0; color:#333; }
 ::selection 		{ background:#ff0; color:#333; }
+
+html{
+	min-height: 100%;
+	position: relative;
+}
+footer{
+	position: absolute;
+	left: 0;
+	background: #4C4C4C;
+	color: #fff;
+	height: 200px;
+	bottom: 0;
+	width: 70%;
+	margin: 0 15%;
+}
+
+body{
+	width: 70%;
+	margin: 0 auto 200px;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+.wdth-full{
+	width: 100%;
+}
+
+.main-img{
+	background: url(<?php echo get_stylesheet_directory_uri(); ?>/images/Beach-Landscape.png) no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+}
+
+.col{
+	width: 30%;
+	float: right;
+	margin: 2em .5em;
+}
+
+.clear-both{
+	clear: both;
+}
+
+.float-right{
+	float: right;
+}
+.nav-item{
+	width: 125px;
+	height: 200px;
+	background: #40AFDE;
+	border-radius: 0 0 1.5em 1.5em;
+	margin: 0 .25em;
+	display: inline-block;
+	top: -50px; 
+}
+
+.txt-center{
+	text-align: center;
+}
+
+#logo{
+	width: 20%;
+}
+
+#searchform{
+	float: right;
+	display: inline-block;
+}
+
 
 /* ---------------------------------------------------------------------------------------------------------- 
 02 Typography -----------------------------------------------------------------------------------------------
@@ -60,6 +134,10 @@ h3,
 h4, 
 h5, 
 h6 					{ font-weight:bold; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
+
+body{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+} 
 
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------
