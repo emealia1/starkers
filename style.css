@@ -44,16 +44,13 @@ footer{
 	position: absolute;
 	left: 0;
 	background: #4C4C4C;
-	color: #fff;
 	height: 200px;
 	bottom: 0;
-	width: 70%;
-	margin: 0 15%;
 }
 
 body{
 	width: 70%;
-	margin: 0 auto 200px;
+	margin: 0 15% 200px;
 	
 }
 
@@ -66,7 +63,7 @@ a{
 }
 
 .main-img{
-	background: url(<?php echo get_stylesheet_directory_uri(); ?>/images/Beach-Landscape.png) no-repeat;
+	background: no-repeat center center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -109,6 +106,33 @@ a{
 	display: inline-block;
 }
 
+#hght-20{
+	height: 20%;
+	position: absolute;
+	width: inherit;
+	display: block;
+}
+
+#hght-40{
+	height: 40%;
+	position: absolute;
+	width: inherit;
+	display: block;
+}
+
+#hght-30{
+	height: 30%;
+	position: absolute;
+	width: inherit;
+	display: block;
+}
+
+#hght-10{
+	height: 10%;
+	position: absolute;
+	width: 100%;
+	display: block;
+}
 
 /* ---------------------------------------------------------------------------------------------------------- 
 02 Typography -----------------------------------------------------------------------------------------------
@@ -138,6 +162,10 @@ h6 					{ font-weight:bold; /* This helps to identify headings at the initial bu
 body{
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 } 
+
+.txt-white{
+	color: #fff;
+}
 
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------
