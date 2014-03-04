@@ -21,14 +21,14 @@
 	<img id="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-ph.png">
 
 	<nav class="float-right txt-white">
-		<a href="/" class="nav-item nav-item-active txt-center">Page 1</a>
-		<a href="/" class="nav-item txt-center">Page 2</a>
-		<a href="/" class="nav-item txt-center">Page 3</a>
-		<a href="/" class="nav-item txt-center">Page 4</a>
+		<div class="blue-btm-rnd-crnrs"><a href="/" class="btm-align-20 nav-item-active txt-center">Page 1</a></div>
+		<div class="blue-btm-rnd-crnrs"><a href="/" class="btm-align-20 txt-center">Page 2</a></div>
+		<div class="blue-btm-rnd-crnrs"><a href="/" class="btm-align-20 txt-center">Page 3</a></div>
+		<div class="blue-btm-rnd-crnrs"><a href="/" class="btm-align-20 txt-center">Page 4</a></div>
 	</nav>
 </section>
 
-<section id="hght-40" class="main-img">
+<section id="hght-40" class="crop">
 	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Beach-Landscape.png">
 </section>
 
