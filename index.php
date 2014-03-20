@@ -17,7 +17,24 @@
 ?>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
-<section id="hght-20" class="clear-both">
+<header>
+	<div id="hamburger">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</header>
+
+<nav>
+	<a href="/" class="">Page 1</a>
+	<a href="/" class="">Page 2</a>
+	<a href="/" class="">Page 3</a>
+	<a href="/" class="">Page 4</a>
+</nav>
+
+<section id="content"></section>
+
+<!-- <section id="hght-20" class="clear-both">
 	<img id="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-ph.png">
 
 	<nav class="float-right txt-white">
@@ -43,7 +60,7 @@
 
 	<p class="col">
 	Sed rhoncus faucibus felis ac sagittis. Sed semper cursus semper. Nullam vitae mauris eu lacus convallis ultrices. Curabitur lobortis velit a libero suscipit, tincidunt sodales diam auctor. Nam tincidunt turpis ac pellentesque faucibus.
-	</p>
+	</p> -->
 </section>
 
 
